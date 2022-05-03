@@ -1,0 +1,55 @@
+     Git/GitHub    site para baixar o Git:https://git-scm.com/downloads
+  Comandos básicos:
+
+- cd = Navegar entre as pastas       
+- ls/dir = Listar diretórios dentro da pasta ( + "-a" para mostrar arquivos oculto ) 
+- mkdir = Criar uma pasta
+- del/rmdir = Remover diretórios/pasta 
+- cls/clear = limpa o terminal
+
+     Como o git funciona embaixo dos panos
+
+- sha1 = algoritimo de encripitação
+- Objetos Fundamentais
+- Sistema Distribuito
+- Segurança
+
+     Objetos Internos do Git
+
+- BLOBS
+- TREES
+- COMMITS
+
+------------------------------------------------------------
+
+Chaves SSH: uma forma de estabelecer uma conexão segura entre duas maquinas.
+
+"Para Lembrar"(ssh-keygen -t ed25519 -c email@gmail.com) de pois ir na pasta.
+              (cat id.pub (para colocar no github) ) ( eval $(ssh-agent -s) )
+              (ssh-add id_ed25519)
+
+------------------------------------------------------------
+     "SEMPRE FAZER"
+
+git config --global user.email ""
+                    user.name ""
+    Comandos Base:
+
+
+- git init = inicia o git na pasta selecionada
+- git add/add * = adiciona ele ao staged
+- git commit -m "" = para commitar o arquivo
+- git status = para ver como esta o status untracked/unmodified/modified/staged
+- mv arquivo ./repositorio desejado/
+
+------------------------------------------------------------
+     Trabalhando com o Git
+
+- git config --list
+- git config --global --unset propiedade especifica = para resetar config
+
+- git remote add origin(nome e da sua escolha mais o mais usado e este) link do repositorio
+- git remote -v = lista de repositorios remoto
+- git push origins master(breach) 
+
+
