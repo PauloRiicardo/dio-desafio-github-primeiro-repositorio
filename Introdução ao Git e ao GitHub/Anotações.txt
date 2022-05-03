@@ -20,7 +20,7 @@
 - TREES
 - COMMITS
 
-------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
 Chaves SSH: uma forma de estabelecer uma conexão segura entre duas maquinas.
 
@@ -28,7 +28,7 @@ Chaves SSH: uma forma de estabelecer uma conexão segura entre duas maquinas.
               (cat id.pub (para colocar no github) ) ( eval $(ssh-agent -s) )
               (ssh-add id_ed25519)
 
-------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
      "SEMPRE FAZER"
 
 git config --global user.email ""
@@ -42,7 +42,7 @@ git config --global user.email ""
 - git status = para ver como esta o status untracked/unmodified/modified/staged
 - mv arquivo ./repositorio desejado/
 
-------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
      Trabalhando com o Git
 
 - git config --list
