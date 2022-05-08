@@ -1,0 +1,124 @@
+	Sites
+
+https://developer.mozilla.org/pt-BR/
+https://unsplash.com
+https://tinypng.com
+
+	Minha Primeira Pagina
+
+HTML5
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Paulo Ricardo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="topo" src="https://www.pngkey.com/png/detail/701-7014808_favicon-100px-fundo-branco.png" alt="Imagem 100px por 100px">
+        <h1 id="title">Paulo Ricardo</h1>
+    </header>
+    <section>
+        <header>
+            <h2 class="subtitle">Posts</h2>
+            <article class="post">
+                <header>
+                    <h3 class="post_title">Post 1</h3>
+                </header>
+                <img class="post_img" src="https://media.istockphoto.com/photos/javascript-code-computer-language-programming-internet-text-editor-picture-id1156837650" alt="imagens de code javascrpt">
+                <p class="post_content">
+                    is simply <a href="https://google.com.br" target="_blank">dummy text</a> of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </article>
+        </header>
+    </section>
+    <footer>
+        <ul class="contact_list">
+            <li>
+                <a href="https://mail.google.com/mail/u/3/#inbox" target="_blank">contatopaulorfa@gmail.com</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
+<!---->
+
+CSS3
+
+.topo{
+    border: 5px solid black;
+    border-radius:50%;
+    
+}
+
+body{
+    background: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+#title, .subtitle, .post_title{
+    color: #50505050;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+a{
+    text-decoration: line-through;
+    color: #50505050;
+}
+
+.post_title{
+    font-style: italic;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.post{
+    background-color: white;
+    padding: 15px;
+    border: 5px solid black;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+} 
+
+.port_img{
+    margin: 0;
+    margin-bottom: 15px;
+    width: 900px;
+}
+
+.contact_list{
+    list-style-type: square;
+    padding-left: 15px;
+}
+
+.contact_list li a{
+    color: blue;
+    text-decoration: none;
+}
